@@ -81,6 +81,7 @@ if __name__ == "__main__":
         package_data={'pyfolio': ['data/*.*']},
         classifiers=classifiers,
         install_requires=install_reqs,
+        dependency_links=["git+https://github.com/quantopian/empyrical.git#egg=empyrical"],
         extras_require=extras_reqs,
         tests_require=test_reqs,
         test_suite='nose.collector',
